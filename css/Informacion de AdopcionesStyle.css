@@ -1,0 +1,85 @@
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th,td{
+    border: solid 1px #eee;
+    padding: 5px;
+}
+th {
+    background-color: #FF943B;
+    color: #732002;
+    text-align:center;
+}
+tr:nth-child(even){
+    background-color: #FF943B;
+    color: #732002;
+    text-align:center;
+}
+.Gato{
+    width: 632px;
+    height: 353px;
+    margin:auto;
+}
+img{
+    display:inline;
+    margin:auto;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+.Testimonio{
+    background-color:#5496FF;
+    width: 385px;
+    height: 683px;
+    font-size: 20px;
+}
+img.ImagenSeñoraRojo{
+    float: center;
+    transform: translate(410px,-510px) ;
+    margin:auto;
+    width: 385px;
+    height: 683px;
+    object-fit: cover;
+}
+
+img.ImagenMujerGris{
+    float: center;
+    transform: translate(810px,-1200px) ;
+    margin:auto;
+    width: 385px;
+    height: 683px;
+    object-fit: cover;
+}
+img.ImagenPerroBlanco{
+    float: center;
+    transform: translate(1210px,-1890px) ;
+    margin:auto;
+    width: 377px;
+    height: 341.5px;
+    object-fit: cover;
+}
+img.ImagenPerroGris{
+    float: center;
+    transform: translate(1210px,-1890px) ;
+    margin:auto;
+    width: 377px;
+    height: 330px;
+    object-fit: cover;
+}
+
+footer section{
+    float:right;
+}
+footer p{
+    margin:0;
+}
+footer a{
+    transition: color 0.3s ease;
+    padding:5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+

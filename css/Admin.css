@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex; 
+    padding: 2% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 250px;
+}
+/*------------Inicio Administrador----------*/
+.msgimp{
+    width: 95%;
+    margin: auto;
+}
+/*----------------*/
+.tboxcol{
+    display: flex;
+    flex-direction: column;
+}
+/*----------------*/
+.tboxcol1{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    margin: 10px 0px;
+}
+/*----------------*/
+.tboxcol3{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 60px 0px;
+    margin: 10px 0px;
+    background-color: #5496FF;
+}
+.tboxcol3 p{
+    color: #000000;
+    font-size: 42px;
+}
+/*----------------*/
+.tboxcol2{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 60px 0px;
+    margin: 10px 0px;
+    background-color: #FF943B;
+    color: #732002;
+}
+.tboxcol2 h1{
+    font-size: 48px;
+    text-align: center;
+}
+/*----------------*/
+.tboxcol6{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    margin: 10px 0px;
+}
+/*----------------*/
+.contc{
+    flex-basis: 40%;
+    margin-bottom: 30px;
+}
+
+.contc div{
+    display: flex;
+    align-items: center;
+}
+
+.contc input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: #000000;
+    font-size: 32px;
+}
+.contc input{
+    color: #fff;
+    text-align: center;
+}
+
+.contc ::placeholder{
+    text-align: center;
+    color: #fff;
+}
+
+/*------------ btn arriba------------*/
+.abtnf{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 15px 50px;
+    font-size: 32px;
+    background: #000000;
+    position: relative;
+    cursor: pointer;
+}
+.abtnf:hover{
+    border: 1px solid #000000;
+    background-color: #fff;
+    transition: 1s;
+    color: #000000;
+}
+
+/*------------ btn abajo ------------*/
+
+.pgprinc{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+
+/*------------ Administrador 1 ------------*/
+
+.tbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infof1{
+    text-align: center;
+}
+
+.infof2{
+    background: #FF943B;
+    font-size: 32px;
+    color: #732002;
+    padding: 15px;
+}
+
+
+.inf{
+    width: 95%;
+    margin: auto;
+}
+
+.contc1{
+    flex-basis: 70%;
+    margin-bottom: 30px;
+    
+}
+
+.contc1 div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.contc2{
+    flex-basis: 10%;
+    background-color: #FF943B;
+}
+
+.contc2 div{
+    margin-bottom: 20px;
+}
+
+.abtnf1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 30px 60px;
+    margin: 5px;
+    font-size: 32px;
+    background: #000000;
+    position: relative;
+    cursor: pointer;
+}
+
+.abtnf1:hover{
+    border: 1px solid #000000;
+    background-color: #fff;
+    transition: 1s;
+    color: #000000;
+}
+
+/*------------ Nosotros Admin---------*/
+.infof3{
+    background: #5496FF;
+    font-size: 32px;
+    color: #000000;
+    padding: 15px;
+}
+
+.contc3{
+    flex-basis: 70%;
+    margin-bottom: 30px;
+    
+}
+
+.contc3 div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contc4 input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    outline: none;
+    border: 1px solid #000000;
+    background: #5496FF;
+    font-size: 32px;
+}
+.contc4 input{
+    color: #000000;
+}
+
+.contc4 ::placeholder{
+    color: #000000;
+}
+
+.abtn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000000;
+    padding: 12px 34px;
+    font-size: 25px;
+    background: #000000;
+    position: relative;
+    cursor: pointer;
+}
+.abtn:hover{
+    border: 1px solid #000000;
+    background-color: #fff;
+    transition: 1s;
+    color: #000000;
+}
+/*------------ Apadrinamiento Admin---------*/
+
+
+.contc5 div{
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.abtnf2{
+    display: inline-block;
+    text-decoration: none;
+    color: #732002;
+    border: 1px solid #000000;
+    padding: 30px 60px;
+    margin: 5px;
+    font-size: 20px;
+    background: #FF943B;
+    position: relative;
+    cursor: pointer;
+}
+
+.abtnf2:hover{
+    border: 1px solid #000000;
+    background-color: #5496FF;
+    transition: 1s;
+    color: #000000;
+}
+
+.infof4{
+    background: #5496FF;
+    font-size: 15px;
+    color: #000000;
+    padding: 15px;
+}
+.infof5{
+    align-items: center;
+    background: #FF943B;
+    font-size: 15px;
+    margin: 5px;
+    color: #732002;
+    padding: 30px 60px;
+    border: 1px solid #000000;
+}
+
+.abtnf3{
+    display: inline-block;
+    text-decoration: none;
+    color: #732002;
+    border: 1px solid #000000;
+    padding: 17px 30px ;
+    font-size: 16px;
+    background: #FF943B;
+    position: relative;
+    cursor: pointer;
+}
+
+.abtnf3:hover{
+    border: 1px solid #000000;
+    background-color: #5496FF;
+    transition: 1s;
+    color: #000000;
+}
+
+/*-------Añadir Peludo Admin-----*/
+
+.imgperrete img{
+    height: 278px;
+    width: 271px;
+}
+.imgperrete{
+    align-content: center;
+}
+
+.contc6{
+    margin-bottom: 40px;
+}
+
+.contc6 div{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.contc6 input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 45px;
+    outline: none;
+    border: 1px solid #000000;
+    background: #000000;
+    font-size: 15px;
+}
+.contc6 input{
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.contc6 ::placeholder{
+    color: #fff;
+}
+
+/*---------Informacion de Adopciones Administrador----*/
+.imgperrete1 img{
+    height: 278px;
+    width: 271px;
+}
+
+.contc8 div{
+    margin-bottom: 40px;
+}
+
+.contc7{
+    flex-basis: 50%;
+    margin-bottom: 30px;
+}
+
+.contc7 div{
+    display: flex;
+    align-items: center;
+}
+
+.contc7 textarea{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #000000;
+    background: #FF943B;
+    font-size: 15px;
+}
+.contc7 input{
+    color: #000000;
+}
+
+.contc7 ::placeholder{
+    color: #732002;
+}
+
+/*-------- Responsive ----------*/
+
+@media(max-width: 700px){
+    .infof2{
+        flex-direction: column;
+    }
+    .tbox{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
