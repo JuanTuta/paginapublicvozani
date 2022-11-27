@@ -1,3 +1,7 @@
+*{
+   
+    font-family: 'Inter', sans-serif;
+}
 .flexbox_container{
     display: flex;
     background-color: #FFFFFF;
@@ -98,6 +102,62 @@ nav img{
 
 nav .fa{
     display: none;
+}
+/*------------footer----------*/
+
+.footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+    background: #5496FF;
+}
+.footer h2{
+    color: #fff;
+}
+.fot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fot1{
+    position: relative;
+    max-width: 700px;
+    min-width: 450px;
+}
+.fot1{
+    margin-bottom: 60px;
+}
+.fot1 .fott{
+    position: absolute;
+    bottom: 0;
+    background: #000000;
+    width: 70%;
+    padding: 40px 0px;
+}
+
+.fot2 img{
+    width: 338px;
+    height: 211px;
+    margin: 0px 40px;
+}
+
+.fot2{
+    flex-basis: 5%;
+    padding: 50px 0px ;
+}
+
+
+.fot3 {
+    margin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot3 .fa-brands{
+    margin: 0px 40px;
+    padding: 25px 0;
 }
 
 @media(max-width: 700px){

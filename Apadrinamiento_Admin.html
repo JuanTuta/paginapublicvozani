@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apadrinamiento</title>
+    <script src="scripts/padrinos.js"></script>
     <link rel="stylesheet" href="css/Admin.css">
 </head>
 <body>
@@ -31,86 +32,40 @@
                 </div>
             </div>
 
-            <div class="contc5">
+            <div class="contc5" id="padrino">
                 <div class="infof1">
                     <a tabindex="6" href="Apadrinamiento_Admin.html" class="abtnf2">Lista de Apadrinados</a>
                 </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="10">Nombre del padrino</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="14">Nombre del padrino</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="18">Nombre del padrino</h1>
-                    </span>
-                </div>
-                <div class="infof1">
-                    <a tabindex="22" href="" class="abtnf1">Eliminar</a>
-                </div>
+                
             </div>
-            <div class="contc5">
+
+            <div class="contc5" id="peludo">
                 <div class="infof1">
                     <a tabindex="7" href="Añadir_Peludo_Admin.html" class="abtnf2">Añadir peludo</a>
                 </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="11">Nombre del peludo</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="15">Nombre del peludo</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="19">Nombre del peludo</h1>
-                    </span>
-                </div>
+               
             </div>
-            <div class="contc5">
+            <div class="contc5" id="cuota">
                 <div class="infof1">
                     <a tabindex="8" href="Peludos_Admin.html" class="abtnf2">Peludo</a>
                 </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="12">Monto</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="16">Monto</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="20">Monto</h1>
-                    </span>
-                </div>
+                
             </div>
 
-            <div class="contc5">
+            <div class="contc5" id="mensaje">
                 <div class="infof5">
                     <span>
                         <h1 tabindex="9">Mensajes</h1>
                     </span>
                 </div>
-                <div class="infof1">
-                    <a tabindex="13" href="" class="abtnf3">Mensaje</a>
-                </div>
-                <div class="infof1">
-                    <a tabindex="17" href="" class="abtnf3">Mensaje</a>
-                </div>
-                <div class="infof1">
-                    <a tabindex="21" href="" class="abtnf3">Mensaje</a>
-                </div>
+                
             </div>
+
+            <form id="forma">
+                <input name="idpad" type="text" placeholder="id" required>
+                
+            </form>
+            <button id="eliminar">Eliminar</button>
             
         </div>
     </section>

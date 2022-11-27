@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peludos Administrador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="scripts/peludos.js"></script>
     <link rel="stylesheet" href="css/Admin.css">
 </head>
 <body>
@@ -31,70 +35,32 @@
                 </div>
             </div>
 
-            <div class="contc5">
+            <div class="contc5" id="peludos">
                 <div class="infof1">
                     <a tabindex="6" href="Apadrinamiento_Admin.html" class="abtnf2">Lista de Apadrinados</a>
                 </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="9">Nombre del peludo</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="12">Nombre del peludo</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="15">Nombre del peludo</h1>
-                    </span>
-                </div>
-                <div class="infof1">
-                    <a tabindex="18" href="" class="abtnf1">Quitar Peludo</a>
-                </div>
+                
+                
             </div>
-            <div class="contc5">
+            
+            <div class="contc5" id="raza">
                 <div class="infof1">
                     <a tabindex="7" href="Añadir_Peludo_Admin.html" class="abtnf2">Añadir peludo</a>
                 </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="10">Raza</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="13">Raza</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="16">Raza</h1>
-                    </span>
-                </div>
+
             </div>
-            <div class="contc5">
+            <div class="contc5" id="imagenpel">
                 <div class="infof1">
                     <a tabindex="8" href="Peludos_Admin.html" class="abtnf2">Peludo</a>
                 </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="11">Imagen.jpg</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="14">Imagen.jpg</h1>
-                    </span>
-                </div>
-                <div class="infof4">
-                    <span>
-                        <h1 tabindex="17">Imagen.jpg</h1>
-                    </span>
-                </div>
+                
             </div>
             
+            <form id="form">
+                <input name="idpel" type="text" placeholder="id" required>
+                
+            </form>
+            <button id="enviara">Eliminar</button>
         </div>
 
     </section>

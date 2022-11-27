@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Añadir Peludo Admin</title>
     <link rel="stylesheet" href="css/Admin.css">
+    
+    <script src="scripts/peludad.js"></script>
 </head>
 <body>
     <section class="header">
@@ -38,22 +40,26 @@
                 <div class="imgperrete">
                     <img tabindex="13" src="img/Yayita.png">  
                 </div>
-                <div class="infof1">
-                    <button tabindex="14"  type="submit" class="abtn dbtn">Añadir Imagen</button>
-                </div>
-                <div class="infof1">
-                    <button tabindex="15"  type="submit" class="abtn dbtn">Nuevo Peludo</button>
-                </div>
+
+                <form id="form1">
+                    <input  name="imagen" type="file">  
+                </form>
+
+                <div></div>
+
+                <button tabindex="15" id="enviara" class="abtn dbtn">Nuevo Peludo</button>
+                
+                <div></div>
             </div>
             <div class="contc6">
-                <div class="infof1">
+                <div class="infof1" >
                     <a tabindex="7"  href="Añadir_Peludo_Admin.html" class="abtnf2">Añadir peludo</a>
                 </div>
-                <form action="">
-                    <input tabindex="9" type="text" placeholder="Nombre del peludo" required>
+                <form id="form2">
+                    <input tabindex="9" name="nombre" type="text" placeholder="Nombre del peludo" required>
                 </form>  
-                <form action="">
-                    <input tabindex="10" type="text" placeholder="Raza" required>
+                <form id="form3">
+                    <input tabindex="10" name="raza" type="text" placeholder="Raza" required>
                 </form>  
             </div>
 
@@ -61,11 +67,11 @@
                 <div class="infof1">
                     <a tabindex="8"  href="Peludos_Admin.html" class="abtnf2">Peludo</a>
                 </div>
-                <form action="">
-                    <input tabindex="11" type="text" placeholder="Sexo" required>
+                <form id="form4">
+                    <input tabindex="11" name="sexo" type="text" placeholder="Sexo" required>
                 </form>  
-                <form action="">
-                    <input tabindex="12" type="text" placeholder="Años" required>
+                <form id="form5">
+                    <input tabindex="12" name="años" type="text" placeholder="Años" required>
                 </form>  
             </div>
 

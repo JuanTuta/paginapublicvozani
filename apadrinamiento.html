@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Apadrinamiento</title>
         <link rel="stylesheet" href="css/estilo_apadrinamiento.css">
+        <script src="scripts/apad.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/dcf4b2b8a2.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
     </head>
     
@@ -26,7 +31,7 @@
                         <li><a tabindex="4" href="apadrinamiento.html">Apadrinamiento</a></li>
                         <li><a tabindex="5" href="Informacion de Adopciones.html">Información de Adopciones</a></li>
                         <li><a tabindex="6" href="Contacto.html">Contacto</a></li>
-                        <li><a tabindex="7" href="">Accesibilidad</a></li>
+                       
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -39,42 +44,28 @@
             </div>
         </div>
         
-        <div class="flexbox_container2">
-            <div>
-                <a tabindex="9" href="formulario apadrinara.html"><img alt="Perrita Yayita" id="animal" src="imagenes/Yayita.png"></a>
-            </div>
+        <div class="flexbox_container2" id="imgbox">
             
-            <div>
-                <a tabindex="10" href="formulario apadrinara.html"><img alt="Gato Tato" id="animal" src="imagenes/Tato.png"></a>
-            </div>
-
-            <div>
-                <a tabindex="11" href="formulario apadrinara.html"><img alt="Perrita Ronita" id="animal" src="imagenes/Ronita.png"></a>
-            </div>
-
-            <div>
-                <a tabindex="12" href="formulario apadrinara.html"><img alt="Gata Lola" id="animal" src="imagenes/Lola.png"></a>
-            </div>
-
-            <div>
-                <a tabindex="13" href="formulario apadrinara.html"><img alt="Perrita Milu" id="animal" src="imagenes/Milu.png"></a>
-            </div>
-
-            <div>
-                <a tabindex="14" href="formulario apadrinara.html"><img alt="Perro Capi" id="animal" src="imagenes/Capi.png"></a>
-            </div>
         </div>
         
-        <script>
-            var links_menu = document.getElementById("links_menu");
-
-            function showMenu() {
-                links_menu.style.right = "0";
-            }
-
-            function showMenu() {
-                links_menu.style.right = "-200px"; 
-            }
-        </script>
+        <section class="footer">
+            <div class="fot">
+                <div class="fot1">
+                    <div class="fott">
+                        <h2 tabindex="17">Horarorio de Atencion</h2>
+                        <h2 tabindex="18">Lunes - Domingo <br> 11am - 4pm</h2>
+                    </div>
+                </div>
+                <div class="fot3">
+                    <i tabindex="19" class="fa-brands fa-facebook fa-5x" alt="Facebook"></i>
+                    <i tabindex="20" class="fa-brands fa-instagram fa-5x" alt="Instagram"></i>
+                </div>
+                <div class="fot2">
+                    <img tabindex="21" src="img/g.png" alt="Mapa de fundacion animal">
+                </div>
+                
+            </div>
+        </section>
+        
     </body>
 </html>
